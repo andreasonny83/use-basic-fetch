@@ -2,6 +2,22 @@
 
 > Very simple and basic but effective fetch hook
 
+[![Edit use-basic-fetch](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/use-basic-fetch-4vrus)
+
+## Installation
+
+Install the package with npm
+
+```sh
+$ npm i -S use-basic-fetch
+```
+
+Or Yarn
+
+```sh
+$ yarn add use-basic-fetch
+```
+
 ## Usage
 
 ```js
