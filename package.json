@@ -27,13 +27,14 @@
     "start": "tsdx watch",
     "build": "rimraf dist && tsdx build --tsconfig tsconfig.prod.json",
     "test": "tsdx test --env=jsdom",
+    "test:watch": "npm run test -- --watchAll",
     "lint": "tsdx lint src",
     "prerelease": "npm run build",
     "release": "np"
   },
   "jest": {
     "setupFiles": [
-      "<rootDir>/src/setupTests.ts"
+      "<rootDir>/setupTests.ts"
     ]
   },
   "peerDependencies": {
