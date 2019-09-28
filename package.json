@@ -30,7 +30,7 @@
     "test:watch": "npm run test -- --watchAll",
     "lint": "tsdx lint src",
     "prerelease": "npm run build",
-    "release": "np"
+    "release": "np --no-yarn"
   },
   "jest": {
     "setupFiles": [
